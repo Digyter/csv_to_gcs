@@ -1,0 +1,4 @@
+Django==1.9
+django-queryset-csv
+GoogleAppEngineCloudStorageClient
+google-api-python-client

@@ -1,0 +1,7 @@
+{% if elements %}
+    <ul>
+    {% for element in elements %}
+		<li>{{ element.label }}</li>
+    {% endfor %}
+    </ul>
+{% endif %}

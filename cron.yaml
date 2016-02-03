@@ -1,0 +1,7 @@
+cron:
+- description: dump csv to gcs
+  url: /app/api/upload/
+  schedule: every 1 hours
+- description: download csv
+  url: /app/api/download/
+  schedule: every 1 hours
